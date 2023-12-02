@@ -1,0 +1,32 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div id="puzzle-container"></div>
+
+    <div class="controls">
+        <button id="shuffle-button">Shuffle</button>
+        <div id="timer">00:00:00</div>
+        <div id="move-counter">Moves: 0</div>
+        <button id="mute-button">Mute/Unmute</button>
+        <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="1">
+        <button id="solve-button">Cheat!</button>
+        <label for="background-select">Select Background:</label>
+        <select id="background-select">
+            <option value="tile.jpg">Sea Urchin</option>
+            <option value="eagle.jpg">Eagle</option>
+            <option value="model.jpg">Model</option>
+            <option value="cake.jpg">Cake</option>
+        </select>
+        <button id="switch-background-button">Switch Background</button>
+        <div id="apex-gif-container">
+            <img src="apex.gif" alt="Winning GIF">
+        </div>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
